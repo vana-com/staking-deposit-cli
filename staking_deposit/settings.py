@@ -19,6 +19,7 @@ HOLESKY = 'holesky'
 
 VANA_MAINNET = 'vana_mainnet'
 VANA_MOKSHA = 'vana_moksha'
+VANA_MAYA = 'vana_maya'
 
 # Mainnet setting
 MainnetSetting = BaseChainSetting(
@@ -49,6 +50,10 @@ VanaSetting = BaseChainSetting(
 VanaMokshaSetting = BaseChainSetting(
     NETWORK_NAME=VANA_MOKSHA, GENESIS_FORK_VERSION=bytes.fromhex('20000089'),
     GENESIS_VALIDATORS_ROOT=bytes.fromhex('91276edf5bde3e0de1b0358a902c6f66b8d520d746d27507988f8c742532af98'))
+# Vana Maya setting
+VanaMayaSetting = BaseChainSetting(
+    NETWORK_NAME=VANA_MAYA, GENESIS_FORK_VERSION=bytes.fromhex('20000089'),
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('60bf4eb36d0b502dd08035c113c1d793a3f2a7c9ab1e4eb4f6de12ab1854422b'))
 
 ALL_CHAINS: Dict[str, BaseChainSetting] = {
     MAINNET: MainnetSetting,
@@ -59,6 +64,7 @@ ALL_CHAINS: Dict[str, BaseChainSetting] = {
     HOLESKY: HoleskySetting,
     VANA_MAINNET: VanaSetting,
     VANA_MOKSHA: VanaMokshaSetting,
+    VANA_MAYA: VanaMayaSetting,
 }
 
 
