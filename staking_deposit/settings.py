@@ -42,10 +42,9 @@ HoleskySetting = BaseChainSetting(
     GENESIS_VALIDATORS_ROOT=bytes.fromhex('9143aa7c615a7f7115e2b6aac319c03529df8242ae705fba9df39b79c59fa8b1'))
 
 # Vana Mainnet setting
-# TODO: update with real values
 VanaSetting = BaseChainSetting(
     NETWORK_NAME=VANA_MAINNET, GENESIS_FORK_VERSION=bytes.fromhex('20000089'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('91276edf5bde3e0de1b0358a902c6f66b8d520d746d27507988f8c742532af98'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('7a2ee1f3a4332b8a3229efd4cba0903049bc8b1e7cd1fe46052e320cf3f6d184'))
 # Vana Moksha setting
 VanaMokshaSetting = BaseChainSetting(
     NETWORK_NAME=VANA_MOKSHA, GENESIS_FORK_VERSION=bytes.fromhex('20000089'),
