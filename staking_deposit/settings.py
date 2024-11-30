@@ -49,7 +49,7 @@ VanaSetting = BaseChainSetting(
 # Vana Moksha setting
 VanaMokshaSetting = BaseChainSetting(
     NETWORK_NAME=VANA_MOKSHA, GENESIS_FORK_VERSION=bytes.fromhex('20000089'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('91276edf5bde3e0de1b0358a902c6f66b8d520d746d27507988f8c742532af98'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('256a8b1abd2d74a87eac1b1d1c16d1e56341951dc7b81b235c2b8bdb03470eef'))
 # Vana Maya setting
 VanaMayaSetting = BaseChainSetting(
     NETWORK_NAME=VANA_MAYA, GENESIS_FORK_VERSION=bytes.fromhex('20000089'),
